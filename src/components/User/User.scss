@@ -1,0 +1,28 @@
+.user {
+    display: flex;
+    left: 0;
+    right: 0;
+
+}
+
+.user-avatar {
+    width: auto;
+}
+.user-avatar__img {
+    width: 6vh;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+.user-name {
+    width: auto;
+    padding-left: 1vh;
+    display: flex;
+    align-items: center;
+}
+.user-name__text {
+    font-size: 2.25vh;
+}
+.user-selected, .user-selected:hover {
+    background-color: #4d5358 !important;
+}
